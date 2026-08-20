@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/registradores_certid_pedido-mcp",
+  "title": "Registradores (ARISP) Certidão: Novo Pedido de Certidão Digital",
+  "description": "Registradores (ARISP) Certificate: Novo Pedido de Certificate Digital, official-source lookup. Platf",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/registradores_certid_pedido-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_registradores_certid_pedido"
+    }
+  ]
+}
